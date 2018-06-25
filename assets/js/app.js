@@ -1,6 +1,7 @@
 var $ = require('jquery');
 
 require('./smoothScroll');
+require('./upButton');
 require('bootstrap-sass');
 require('../css/app.scss');
 

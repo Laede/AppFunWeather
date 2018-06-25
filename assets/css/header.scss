@@ -10,6 +10,7 @@
     margin-bottom: 4%;
     .info-box__intro-box {
       margin-top: 200px;
+      left:18px;
       b {
         font-size: 40px;
         color: #fff;
@@ -55,14 +56,6 @@
       margin-bottom: 14%;
       #header__info-box{
         margin-top: -100px;
-        .info-box__intro-box{
-          text-align: center;
-          padding: 0 130px;
-          margin-top: 150px;
-          p{
-            margin-left: 155px;
-          }
-        }
       }
     }
   }

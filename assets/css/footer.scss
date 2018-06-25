@@ -50,10 +50,17 @@
 @media only screen and (max-width: 1200px) {
   .app__footer{
     .footer__logo{
-      margin-left: 45px;
+      margin-left: 54px;
+      position: absolute;
     }
     .footer__icon-box {
-      display: none;
+      display: -webkit-inline-box;
+      right: 60px;
+      float: right;
+      a{
+        display: inherit;
+        margin: 0 8px;
+      }
     }
     .footer__link-box {
       display: none;
@@ -63,5 +70,15 @@
         margin-right: 55px;
       }
     }
+  }
+}
+@media only screen and (max-width: 321px){
+  .download__store-box{
+    img{
+      margin-bottom: 5px;
+    }
+  }
+  .footer__icon-box{
+    display: none !important;
   }
 }

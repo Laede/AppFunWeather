@@ -8,10 +8,18 @@ use Symfony\Component\Routing\Annotation\Route;
 class IndexController extends Controller
 {
     /**
-     * @Route("/", name="index")
+     * @Route("/", name="features")
      */
-    public function index()
+    public function firstPage()
     {
-        return $this->render('index/index.html.twig');
+        return $this->render('features/index.html.twig');
+    }
+
+    /**
+     * @Route("/reviews", name="reviews")
+     */
+    public function secondPage()
+    {
+        return $this->render('reviews/index.html.twig');
     }
 }

@@ -1,0 +1,65 @@
+$reviews-font-primary: 'Roboto Slab', serif;
+$reviews-font-secondary: 'PT Sans', sans-serif;
+$quote-margin: -50px;
+$quote-color:#648cff;
+
+.app__reviews__container{
+  .reviews__intro{
+    margin-top: 120px;
+    b {
+      font-size: 40px;
+      color: #648cff;
+    }
+    p {
+      color: gray;
+    }
+  }
+  .reviews__body{
+    margin-top: 150px;
+    .reviews__quote-box{
+      margin-bottom: 200px;
+      padding: 0 20px;
+      .reviews__quote__body{
+        &:before{
+          position: absolute;
+          margin-top: -92px;
+          margin-left: -4px;
+          font-family: $reviews-font-primary;
+          font-size: 130px;
+          color: $quote-color;
+          content: '“';
+        }
+        font-family: $reviews-font-secondary;
+        font-size: 25px;
+      }
+      .reviews__quote__author{
+        font-family: $reviews-font-secondary;
+      }
+      &:after{
+        font-family:$reviews-font-primary;
+        font-size: 130px;
+        color: $quote-color;
+        content: '“';
+        position: absolute;
+        margin-top: -125px;
+        margin-left: 78%;
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Safari 3-8 */
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1200px){
+  .reviews__body{
+    .reviews__quote-box{
+      text-align: center;
+      padding: 0 50px !important;
+      &:after{
+        margin-left: 35% !important;
+      }
+    }
+  }
+}
