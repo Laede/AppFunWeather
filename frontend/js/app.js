@@ -3,7 +3,7 @@ var $ = require('jquery');
 require('./smoothScroll');
 require('./upButton');
 require('bootstrap-sass');
-require('../css/app.scss');
+require('../scss/app.scss');
 
 
 $(document).ready(function() {
