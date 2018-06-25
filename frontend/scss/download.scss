@@ -1,15 +1,16 @@
+@mixin background{
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 .app__download__container {
   width: 100%;
   background-color: #648cff;
   padding-top: 60px;
   background: url("/images/downloadbg.jpg") no-repeat bottom center scroll;
-  //background-repeat: no-repeat;
-  //background-position: center;
-  //background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include background;
   .download__body {
     margin-top: 200px;
     .download__body__info {

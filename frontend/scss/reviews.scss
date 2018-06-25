@@ -2,6 +2,7 @@ $reviews-font-primary: 'Roboto Slab', serif;
 $reviews-font-secondary: 'PT Sans', sans-serif;
 $quote-margin: -50px;
 $quote-color:#648cff;
+$quote-font-size:130px;
 
 .app__reviews__container{
   .reviews__intro{
@@ -25,7 +26,7 @@ $quote-color:#648cff;
           margin-top: -92px;
           margin-left: -4px;
           font-family: $reviews-font-primary;
-          font-size: 130px;
+          font-size: $quote-font-size;
           color: $quote-color;
           content: '“';
         }
@@ -37,7 +38,7 @@ $quote-color:#648cff;
       }
       &:after{
         font-family:$reviews-font-primary;
-        font-size: 130px;
+        font-size: $quote-font-size;
         color: $quote-color;
         content: '“';
         position: absolute;

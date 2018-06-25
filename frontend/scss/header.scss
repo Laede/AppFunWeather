@@ -1,41 +1,44 @@
+@import "download";
+$margin:25px;
+$textColor:#fff;
+
+@mixin button{
+    color: $textColor;
+    border: none;
+    padding: 8px 25px;
+}
+
 .app__header__container {
   width: 100%;
   background: url("/images/wave.jpg") no-repeat bottom center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include background;
   .header__body {
-    margin-top: 25px;
+    margin-top: $margin;
     margin-bottom: 4%;
     .info-box__intro-box {
       margin-top: 200px;
       left:18px;
       b {
         font-size: 40px;
-        color: #fff;
+        color: $textColor;
         line-height: 50px;
       }
       p {
         color: lightgray;
         padding-right: 160px;
-        margin-top: 25px;
+        margin-top: $margin;
         line-height: 22px;
       }
       .info-box__button-box {
-        margin-top: 25px;
+        margin-top: $margin;
         .download-button {
-          color: #fff;
           background-color: #fc6a42;
-          border: none;
-          padding: 8px 25px;
           margin-right: 10px;
+          @include button;
         }
         .features-button {
-          color: #fff;
           background-color: #4466c9;
-          border: none;
-          padding: 8px 25px;
+          @include button;
         }
       }
     }

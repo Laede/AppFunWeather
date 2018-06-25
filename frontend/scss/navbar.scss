@@ -1,12 +1,14 @@
+$font-color:#fff;
+
 .app__navbar__container {
   margin-top: 20px;
   background: #648cff;
   border: none;
   .navbar__logo{
-    color: #fff;
+    color:$font-color;
   }
   button{
-    background: #fff;
+    background: $font-color;
   }
   .navbar__list{
     margin-left: 120px;
@@ -18,7 +20,7 @@
       li{
         a{
           font-size: 13px;
-          color: #fff;
+          color: $font-color;
         }
         margin:0 45px ;
       }
@@ -27,7 +29,7 @@
       margin-right: 85px;
       li{
         a{
-          color: #fff;
+          color: $font-color;
         }
       }
     }

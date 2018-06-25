@@ -1,3 +1,5 @@
+$footerElementColor:#9d9db2;
+
 .app__footer {
   width: 100%;
   background: #353854;
@@ -21,14 +23,14 @@
     .footer__link-box {
       a {
         margin-right: 13%;
-        color: #9d9db2;
+        color: $footerElementColor;
         text-decoration: none;
       }
     }
     .footer__icon-box {
       i {
         margin-right: 10%;
-        color: #9d9db2;
+        color: $footerElementColor;
       }
     }
   }
