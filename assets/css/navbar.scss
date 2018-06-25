@@ -1,0 +1,48 @@
+.app__navbar__container {
+  margin-top: 20px;
+  background: #648cff;
+  border: none;
+  .navbar__logo{
+    color: #fff;
+  }
+  button{
+    background: #fff;
+  }
+  .navbar__list{
+    margin-left: 120px;
+    text-align: left;
+    .navbar__list-elemets__left{
+      float: none !important;
+      display: inline-block;
+      margin-left: 20px;
+      li{
+        a{
+          font-size: 13px;
+          color: #fff;
+        }
+        margin:0 45px ;
+      }
+    }
+    .navbar__list-elemets__right{
+      margin-right: 85px;
+      li{
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar__list-elemets__right {
+    display: none !important;
+  }
+  .navbar__list{
+    margin-left: 0 !important;
+    text-align: -webkit-center !important;
+    .navbar__list-elemets__left {
+      margin-left: -35px !important;
+    }
+  }
+}

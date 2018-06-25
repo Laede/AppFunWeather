@@ -1,0 +1,32 @@
+.app__download__container {
+  width: 100%;
+  background-color: #648cff;
+  padding-top: 60px;
+  background: url("/images/downloadbg.png") no-repeat bottom center scroll;
+  //background-repeat: no-repeat;
+  //background-position: center;
+  //background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .download__body {
+    margin-top: 200px;
+    .download__body__info {
+      bottom: 120px;
+      b {
+        font-size: 25px;
+        color: #fff;
+      }
+      p {
+        color: lightgray;
+        padding-right: 160px;
+        margin-top: 25px;
+        line-height: 22px;
+      }
+      .download__store-box {
+        margin-top: 45px
+      }
+    }
+  }
+}

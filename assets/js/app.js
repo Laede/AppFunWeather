@@ -1,6 +1,6 @@
 var $ = require('jquery');
 
-var greet = require('./greet');
+require('./smoothScroll');
 require('bootstrap-sass');
 require('../css/app.scss');
 

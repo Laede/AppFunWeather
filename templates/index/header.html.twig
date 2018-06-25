@@ -1,0 +1,21 @@
+<div class="container-fluid app__header__container">
+    <div class="container header__body">
+        {{ include('index/navbar.html.twig') }}
+        <div class="row" id="header__info-box">
+            <div class="info-box__intro-box col-lg-5">
+                <b>Get the most fun weather app</b>
+                <p>Simple,nice and user-friendly application of the weather.Only useful information</p>
+                <div class="info-box__button-box">
+                    <a href="#" class="btn btn-default download-button">Download</a>
+                    <a href="#" class="btn btn-default features-button">Features</a>
+                </div>
+            </div>
+            <div class="phone-img col-lg-5 col-lg-offset-1">
+                <img class="img-responsive center-block" src="{{ asset('images/phoneCircles.png') }}" alt="">
+            </div>
+        </div>
+        <div class="row scroll-down col-lg-10">
+            <a href="#info-box"><img class="img-responsive center-block link-arrow" id="link-arrow" src="{{ asset('images/Shape 1 copy.png') }}" alt=""></a>
+        </div>
+    </div>
+</div>

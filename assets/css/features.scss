@@ -1,0 +1,39 @@
+.app__features__container {
+  margin-top: 120px;
+  margin-bottom: 200px;
+  b {
+    font-size: 40px;
+    color: #648cff;
+  }
+  p {
+    color: gray;
+  }
+  .features__body-box {
+    margin-top: 150px;
+    .features__body-box__element {
+      margin-top: 0;
+      b {
+        font-size: 20px;
+        color: black;
+      }
+      p {
+        line-height: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #info-box{
+    margin-bottom: 100px;
+    .features__body-box{
+      margin-top: 80px;
+      padding: 0 50px;
+      .features__body-box__element{
+        margin-top: 30px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
