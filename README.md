@@ -17,6 +17,11 @@ Clone the project, then, inside the project folder run :
 ```
 composer install
 ```
+Build the CSS
+
+```
+yarn run ecore dev
+```
 Open the project folder in the termimal and run :
 
 ```
