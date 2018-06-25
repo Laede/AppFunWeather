@@ -20,7 +20,10 @@ composer install
 Build the CSS
 
 ```
-yarn run ecore dev
+yarn add @symfony/webpack-encore --dev
+```
+```
+yarn encore dev
 ```
 Open the project folder in the termimal and run :
 
