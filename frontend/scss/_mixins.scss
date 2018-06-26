@@ -1,0 +1,17 @@
+@mixin button{
+  color: #fff;
+  border: none;
+  padding: 8px 25px;
+}
+
+@mixin background{
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@mixin rotate($degree){
+  -ms-transform:rotate($degree);
+  -webkit-transform:rotate($degree);
+}
